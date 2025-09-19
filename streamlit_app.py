@@ -9,8 +9,7 @@ import pandas as pd
 
 # Set the title and favicon that appear in the Browser's tab bar.
 st.set_page_config(
-    page_title="MMCCCL Inventory tracker",
-)
+    page_title="MMCCCL Inventory tracker")
 st.markdown("""
     <style>
     .main-header { color:#0072b2; font-size:2rem; font-weight:700; margin:.25rem 0 .5rem 0; }
