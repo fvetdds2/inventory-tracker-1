@@ -9,9 +9,19 @@ import pandas as pd
 
 # Set the title and favicon that appear in the Browser's tab bar.
 st.set_page_config(
-    page_title="Inventory tracker",
-    page_icon=":shopping_bags:",  # This is an emoji shortcode. Could be a URL too.
+    page_title="MMCCCL Inventory tracker",
 )
+st.markdown("""
+    <style>
+    .main-header { color:#0072b2; font-size:2rem; font-weight:700; margin:.25rem 0 .5rem 0; }
+    .subtle { color:#666; font-size:.95rem; margin-bottom:.75rem; }
+    .metric { font-size:1.5rem; font-weight:700; }
+    .pill { display:inline-block; padding:.1rem .5rem; border-radius:999px; background:#eef1f4; margin-right:.25rem; }
+    </style>
+""", unsafe_allow_html=True)
+st.image("mmcccl_logo.png", use_container_width=True)
+st.markdown('<div class="main-header">MMCCCL Lab Supply Tracker</div>', unsafe_allow_html=True)
+st.markdown('<div class="subtle">Add / edit / delete inventory, export to Excel, and send restock alerts via email.</div>', unsafe_allow_html=True)
 
 
 # -----------------------------------------------------------------------------
