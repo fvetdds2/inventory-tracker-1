@@ -178,14 +178,6 @@ def update_data(conn, df, changes):
 # -----------------------------------------------------------------------------
 # Draw the actual page, starting with the inventory table.
 
-# Set the title that appears at the top of the page.
-"""
-# :shopping_bags: Inventory tracker
-
-**Welcome to Alice's Corner Store's intentory tracker!**
-This page reads and writes directly from/to our inventory database.
-"""
-
 st.info(
     """
     Use the table below to add, remove, and edit items.
